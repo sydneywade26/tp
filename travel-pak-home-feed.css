@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	margin: 0px;
+	min-height: 100%;
+	overflow-y:scroll; 
+
+}
+
+html { 
+	overflow-y:scroll; 
+}
+
+/*HEADER*/
+.header {
+	height: 50px;
+	width:100%;
+	background-color: #54a59d;
+	position: fixed;
+
+}
+
+.centered {
+	height: 100%;
+	width: 100%;
+}
+
+#logo-centered {
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+/*SIDEBAR*/
+#td-sidebar {
+	background-color: #54a59d;
+	width: 25%;
+	position: fixed;
+	display: block;
+	float: left;
+	margin-top: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+text {
+	color: #faf7f3;
+	font-size: 12pt;
+}
+
+p:nth-child(4) {
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+p:nth-child(5) {
+	margin-top: -10px;
+	margin-bottom: 40px;
+}
+
+.profile-img {
+	margin-left: -150px;
+	margin-right: auto;
+	margin-bottom: 175px;
+}
+
+#profile-border {
+	z-index: 1; 
+	position: absolute;
+}
+
+#hover-profile-border{
+	z-index: 3;
+	position: absolute;
+}
+
+.hide{
+	display: none;
+}
+.button {
+	height: 200px;
+	display: inline-block;
+}
+
+.button-hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+#explore-button {
+	margin-top: 30px;
+}
+
+/* News Feed*/
+.box {
+	background-color: #f1f7fd;
+}
